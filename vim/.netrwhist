@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/carrel_d/Downloads'
+let g:netrw_dirhist_2='/home/carrel_d'
+let g:netrw_dirhist_3='/home'
+let g:netrw_dirhist_4='/'
+let g:netrw_dirhist_5='/home/carrel_d/work'
+let g:netrw_dirhist_6='/home/carrel_d/work/ansible-infra'
+let g:netrw_dirhist_7='/home/carrel_d'
