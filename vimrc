@@ -1,5 +1,7 @@
 " custom .vimrc 
 " need to create ~/.vimbackup in order to work without warning. 
+" need also installation of fzf for fuzzy search
+
 unlet! skipt_defaults_vim
 source $VIMRUNTIME/colors/default.vim
 
