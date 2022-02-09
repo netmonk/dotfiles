@@ -36,7 +36,7 @@ nnoremap <leader>b :buffer <C-z><S-tab>
 nnoremap <leader>B :sbuffer <C-z><S-tab>
 nnoremap gb :ls<CR>:b<Space>
 
-
+nnoremap <leader>j :tjump /
 
 
 
