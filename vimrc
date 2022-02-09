@@ -38,7 +38,11 @@ nnoremap gb :ls<CR>:b<Space>
 
 nnoremap <leader>j :tjump /
 
-
+set wildignore=*.swp,*.bak
+set wildignore+=*.pyc,*.class,*.sln,*.Master,*.csproj,*.csproj.user,*.cache,*.dll,*.pdb,*.min.*
+set wildignore+=*/.git/**/*,*/.hg/**/*,*/.svn/**/*
+set wildignore+=tags
+set wildignore+=*.tar.*
 
 
 
