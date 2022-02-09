@@ -1,4 +1,4 @@
-unlket! skipt_defaults_vim
+unlet! skipt_defaults_vim
 source $VIMRUNTIME/colors/default.vim
 
 syntax enable
