@@ -1,3 +1,5 @@
+" custom .vimrc 
+" need to create ~/.vimbackup in order to work without warning. 
 unlet! skipt_defaults_vim
 source $VIMRUNTIME/colors/default.vim
 
