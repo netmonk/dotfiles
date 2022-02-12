@@ -9,7 +9,7 @@ syntax enable
 set hidden 
 set rtp+=~/.fzf
 
-let mapleader=","
+let mapleader="/"
 let maplocalleader="_"
 
 filetype plugin indent on 
@@ -24,6 +24,11 @@ set ruler
 set relativenumber
 set visualbell
 set encoding=utf-8
+set autoread
+set autowrite
+set showmode
+set showcmd
+set laststatus=2
 
 set path+=.,**
 nnoremap <leader>f :find *
