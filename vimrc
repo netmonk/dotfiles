@@ -9,7 +9,7 @@ syntax enable
 set hidden 
 set rtp+=~/.fzf
 
-let mapleader="/"
+let mapleader="\"
 let maplocalleader="_"
 
 filetype plugin indent on 
