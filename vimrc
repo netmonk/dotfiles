@@ -1,5 +1,5 @@
 " custom .vimrc 
-" need to create ~/.vimbackup in order to work without warning. 
+" beware conf deasnt create any backup file before write
 " need also installation of fzf for fuzzy search
 
 unlet! skipt_defaults_vim
@@ -14,7 +14,6 @@ let maplocalleader="_"
 
 filetype plugin indent on 
 set directory=/tmp
-set backupdir=~/.vimbackup
 set wildmenu
 set wildmode=list:full
 color torte
@@ -25,8 +24,8 @@ set relativenumber
 set visualbell
 set encoding=utf-8
 set autoread
-" set autowrite (too dangerous)
 set nobackup
+set nowritebackup
 set showmode
 set showcmd
 set laststatus=2
