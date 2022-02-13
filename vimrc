@@ -25,7 +25,8 @@ set relativenumber
 set visualbell
 set encoding=utf-8
 set autoread
-set autowrite
+" set autowrite (too dangerous)
+set nobackup
 set showmode
 set showcmd
 set laststatus=2
