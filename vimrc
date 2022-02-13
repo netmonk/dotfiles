@@ -1,5 +1,5 @@
 " custom .vimrc 
-" beware conf deasnt create any backup file before write
+" beware conf doesn't create any backup file before write
 " need also installation of fzf for fuzzy search
 
 unlet! skipt_defaults_vim
