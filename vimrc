@@ -7,7 +7,8 @@
 
 
 set hidden 
-set rtp+=~/.fzf
+set rtp+=~/work/fzf
+set rtp+=~/.vim/bundle/fzf.vim
 
 let mapleader="."
 let maplocalleader="_"
