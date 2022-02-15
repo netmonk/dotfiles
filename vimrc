@@ -30,7 +30,7 @@ set nowritebackup
 set showmode
 set showcmd
 set laststatus=2
-set nobackup
+
 
 set path+=.,**
 nnoremap <leader>f :find *
