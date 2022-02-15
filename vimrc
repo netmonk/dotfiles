@@ -3,7 +3,7 @@
 " need also installation of fzf for fuzzy search
 
 unlet! skipt_defaults_vim
-source $VIMRUNTIME/colors/default.vim
+" source $VIMRUNTIME/colors/default.vim (not required).
 
 syntax enable
 set hidden 
