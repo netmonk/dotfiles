@@ -2,7 +2,7 @@
 " beware conf doesn't create any backup file before write
 " need also installation of fzf for fuzzy search
 
-unlet! skip_defaults_vim
+" unlet! skip_defaults_vim
 " source $VIMRUNTIME/colors/default.vim (not required).
 
 syntax enable
@@ -21,7 +21,8 @@ syntax on
 set number
 set ruler 
 set relativenumber
-set visualbell
+"set visualbell
+set belloff=all
 set encoding=utf-8
 set autoread
 set nobackup
