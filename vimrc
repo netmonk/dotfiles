@@ -5,7 +5,7 @@
 " unlet! skip_defaults_vim
 " source $VIMRUNTIME/colors/default.vim (not required).
 
-syntax enable
+
 set hidden 
 set rtp+=~/.fzf
 
