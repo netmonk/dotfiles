@@ -2,7 +2,7 @@
 " beware conf doesn't create any backup file before write
 " need also installation of fzf for fuzzy search
 
-unlet! skipt_defaults_vim
+unlet! skip_defaults_vim
 " source $VIMRUNTIME/colors/default.vim (not required).
 
 syntax enable
