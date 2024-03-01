@@ -34,10 +34,20 @@ set laststatus=2
 
 
 set path+=.,**
+" some key mapping
+" jj for escape in insert mode
+inoremap jj <Esc>
+
 nnoremap <leader>f :find *
 nnoremap <leader>s :sfind *
 nnoremap <leader>v :vert sfind *
 nnoremap <leader>t :tabfind *
+
+" let center the cursor
+nnoremap n nzz
+nnoremap N Nzz
+" let remap space with : in normal mode
+nnoremap <space> :
 
 set wildcharm=<C-z>
 nnoremap <leader>b :buffer <C-z><S-tab>
